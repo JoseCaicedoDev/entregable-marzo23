@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { InputField } from "./components/InputField";
 import { Card } from "./components/Card";
 import { Error } from "./components/Error";
+import "./app.css"
 
 function App() {
   const [formState, setFormState] = useState({
@@ -53,7 +54,7 @@ function App() {
   return (
     <div className="App">
       <h1>Elige un color</h1>
-      <form onSubmit={handleSubmit}>
+      <form className="form" onSubmit={handleSubmit}>
         <InputField
           label="Nombre"
           id="name"

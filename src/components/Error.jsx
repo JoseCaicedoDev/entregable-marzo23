@@ -1,5 +1,5 @@
 export const Error = ({ message }) => {
   return (
-    <p>{message}</p>
+    <p style={{ color: "red" }}>{message}</p>
   )
 }

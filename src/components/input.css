@@ -1,0 +1,15 @@
+.container-input{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.input-label{
+  font-size: 12px;
+}
+.input-content{
+  width: 90%;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border-color: rgba(57, 49, 49, 0.2);
+}
